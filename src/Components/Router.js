@@ -5,8 +5,8 @@ import Register from "./register"
 import UserProfile from "./userProfile";
 import Admin from "./Admin";
 import AddProduct from "./AddProduct";
-import Timer from "./Timer"
-import Home from "./Home"
+
+
 import Book from "./Book";
 import Category from "./Category"
 
@@ -51,8 +51,6 @@ function Router(){
 
          <Route path="/">
            <Header />
-           <Timer />
-           <Home />
            
          </Route>
     </Switch>
