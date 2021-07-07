@@ -1,0 +1,107 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+       
+        top: 0; 
+        
+       z-index: 100;
+     overflow: auto;
+     
+  }
+
+  .header-logo-image {
+    width: 100px;
+    margin: 0 20px;
+    margin-top: 18px;
+  }
+  
+
+  .header-address,.header-account,.header-returns{
+    text-decoration: none;
+    color: white;
+     
+  }
+ 
+  .header-cart{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+
+  .header-address:hover,.header-returns:hover,.header-account:hover,.header-cart:hover{
+    border: 2px,solid,white;
+    color: white;
+  }
+  .header-logo:hover{
+    border: 2px,solid,white;
+  }
+
+  
+
+  .header-search {
+      display: flex;
+   width: 400px;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+    
+  }
+  .header-searchInput {
+    height: 16px;
+    padding: 15px;
+   
+    width: 100%;
+   
+  }
+  
+  .header-searchIcon {
+    padding: 10px;
+    height: 30px ;
+    
+  }
+  .header-button{
+     
+    border: none;
+    
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  .header-2{
+    height: 40px;
+    display: flex;
+    background-color:#36454F;
+  }
+
+  .sign{
+    border: none;
+    border-radius: 10px;
+    padding: 2px 102px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  .link{
+    text-decoration: none;
+  }
+
+  .dropdown-menu{
+   
+    width: 600px;
+  
+  }
+  .name{
+    text-transform: uppercase;
+  }
+  
+  
+
+ 
